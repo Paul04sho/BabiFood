@@ -1,0 +1,42 @@
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+.food-card {
+    border: 3px solid orange;
+    width: 80%;
+    padding: 3rem;
+    margin: 1.25rem auto;
+}
+
+.food-card-top h2 {
+    background-color: gray;
+    text-align: center;
+    padding: 0.75rem;
+}
+
+.food-card-bottom {
+    margin: 1rem;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.advantages-item {
+    border: 3px solid yellow;
+    padding: 4rem;
+}

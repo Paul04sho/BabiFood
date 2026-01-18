@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babi Food</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+
+    <!-- Police d'écriture-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- Icones Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+   <header class="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">
+            <img src="assets/images/logo.svg" class="logo" alt="Logo">
+        </a>
+    </div>
+    <button id="cart-btn">
+        <i class="fa fa-shopping-cart"></i>
+    </button>
+    <button onclick="openMenu()" class="hamburger-menu">
+        <i class="fa fa-bars"></i>
+    </button>
+    <nav class="nav-links">
+        <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+   </header>
+
+   <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Le meilleur de Babi, en un clic.</h1>
+                <p>
+                    Commandez vos plats et faites-vous livrer partout à Abidjan.
+                </p>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <div class="container">
+                <h1>Découvrez le menu</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem deserunt porro quis, esse, molestiae dicta commodi dolore reiciendis doloremque sit minima dolores, corrupti repellat cum quibusdam autem id repudiandae!
+                </p>
+
+                <h3 class="menu-category">Plats d'entrée</h3>
+                <hr>
+                <article class="food-card">
+                    <div class="food-card-top">
+                        <h2>Nom du plat</h2>
+                    </div>
+                    <div class="food-card-bottom">
+                        <h4>Nom détaillé du plat</h4>
+                        <p class="description">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos obcaecati ipsam laudantium dolor ab natus, ad blanditiis, eius temporibus exercitationem, sed voluptate alias animi vero nihil cumque et provident!
+                        </p>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <span class="price">2500 FCFA</span>
+                        <button>Ajouter</button>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-card-top">
+                        <h2>Nom du plat</h2>
+                    </div>
+                    <div class="food-card-bottom">
+                        <h4>Nom détaillé du plat</h4>
+                        <p class="description">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos obcaecati ipsam laudantium dolor ab natus, ad blanditiis, eius temporibus exercitationem, sed voluptate alias animi vero nihil cumque et provident!
+                        </p>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <span class="price">2500 FCFA</span>
+                        <button>Ajouter</button>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-card-top">
+                        <h2>Nom du plat</h2>
+                    </div>
+                    <div class="food-card-bottom">
+                        <h4>Nom détaillé du plat</h4>
+                        <p class="description">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos obcaecati ipsam laudantium dolor ab natus, ad blanditiis, eius temporibus exercitationem, sed voluptate alias animi vero nihil cumque et provident!
+                        </p>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <span class="price">2500 FCFA</span>
+                        <button>Ajouter</button>
+                    </div>
+                </article>
+
+                <h3 class="menu-category">Plats de résistance</h3>
+                <hr>
+                <article class="food-card">
+                    <div class="food-card-top">
+                        <h2>Nom du plat</h2>
+                    </div>
+                    <div class="food-card-bottom">
+                        <h4>Nom détaillé du plat</h4>
+                        <p class="description">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos obcaecati ipsam laudantium dolor ab natus, ad blanditiis, eius temporibus exercitationem, sed voluptate alias animi vero nihil cumque et provident!
+                        </p>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <span class="price">5000 FCFA</span>
+                        <button>Ajouter</button>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-card-top">
+                        <h2>Nom du plat</h2>
+                    </div>
+                    <div class="food-card-bottom">
+                        <h4>Nom détaillé du plat</h4>
+                        <p class="description">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos obcaecati ipsam laudantium dolor ab natus, ad blanditiis, eius temporibus exercitationem, sed voluptate alias animi vero nihil cumque et provident!
+                        </p>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <span class="price">5000 FCFA</span>
+                        <button>Ajouter</button>
+                    </div>
+                </article>
+
+                <h3 class="menu-category">Desserts</h3>
+                <hr>
+                <article class="food-card">
+                    <div class="food-card-top">
+                        <h2>Nom du plat</h2>
+                    </div>
+                    <div class="food-card-bottom">
+                        <h4>Nom détaillé du plat</h4>
+                        <p class="description">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos obcaecati ipsam laudantium dolor ab natus, ad blanditiis, eius temporibus exercitationem, sed voluptate alias animi vero nihil cumque et provident!
+                        </p>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <span class="price">3500 FCFA</span>
+                        <button>Ajouter</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="advantages-section">
+            <h1>Des offres spéciales pour des clients spéciaux</h1>
+            <div class="advantages-item">
+                <h3>Titre des avantages offerts</h3>
+                <p class="description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quisquam officiis eaque minima nisi neque, impedit esse velit, vel magnam, voluptas dignissimos autem recusandae dolores magni quaerat obcaecati repellendus odio.
+                </p>
+                <li>
+                    <i class="fa fa-check"></i>
+                    Livraison gratuite
+                </li>
+                <li>
+                    <i class="fa fa-check"></i>
+                    Réduction du prix pour les clients fidèles
+                </li>
+                <li>
+                    <i class="fa fa-check"></i>
+                    Choix de 3 plats différents
+                </li>
+            </div>
+        </section>
+   </main>
+</body>
+</html>
