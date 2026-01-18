@@ -1,0 +1,10 @@
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.logo img{
+    width: 36px;
+    height: 36px;
+}
